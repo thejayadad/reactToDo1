@@ -3,7 +3,7 @@ import './TodoListItem.css';
 
 const TodoListItem = ({ todo }) => (
     <div className="todo-item-container">
-ji
+
         <h3>{todo.text}</h3>
         <div className="buttons-container">
             <button className="completed-button">Mark As Completed</button>

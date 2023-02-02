@@ -1,0 +1,41 @@
+
+
+
+.new-todo-form{
+    width: 300px;
+    max-width: 75%;
+    background: #02a9f7;
+    padding: 10px;
+    border-radius: 5PX;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+button{
+    background: none;
+    border: none;
+}
+input{
+    padding: 10px;
+    border-radius: 3px 0 0 3px;
+    border: 0px;
+    width: 220px;
+    outline: none;
+    border-bottom: 1px solid #d4f0fc;
+    background: transparent;
+    color: #d4f0fc;
+}
+
+.btn{
+    float: right;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background-color: #02a9f7;
+    border-radius: 50%;
+}
+
+.btn .fas{
+    color: white;
+    font-size: 30px;
+}
