@@ -5,7 +5,7 @@ const NewTodoForm = () => {
     const [inputValue, setInputValue] = useState('');
 
     return (
-        <div className="new-todo-form">
+            <div className="new-todo-form">
             <input
                 className="new-todo-input"
                 type="text"

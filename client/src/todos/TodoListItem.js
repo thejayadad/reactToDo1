@@ -2,12 +2,14 @@ import React from 'react';
 import './TodoListItem.css';
 
 const TodoListItem = ({ todo }) => (
-    <div className="todo-item-container">
 
-        <h3>{todo.text}</h3>
+    <div className="todo-item-container">
+        <div className='box'>
+            <h3>{todo.text}</h3>
+        </div>
         <div className="buttons-container">
-            <button className="completed-button">Mark As Completed</button>
-            <button className="remove-button">Remove</button>
+            <button className="completed-button"><i id='completed' class="fas fa-check-circle"></i></button>
+            <button className="remove-button"><i id='remove' class="fas fa-minus-circle"></i></button>
         </div>
     </div>
 );

@@ -10,6 +10,7 @@
     margin: auto;
     text-align: center;
     margin-top: 100px;
+    box-shadow: 0 19px 38px rgba(1, 48, 63, 0.3), 0 15px 12px rgba(149, 180, 251, 0.22);
 }
 button{
     background: none;
